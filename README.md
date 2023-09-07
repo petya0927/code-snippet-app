@@ -1,6 +1,8 @@
+![screenshot](https://github.com/petya0927/code-snippet-app/blob/main/screenshot.png)
+
 # code-snippet-app
 
-A simple Electron app to store code snippets for later use. You can add, edit, delete and search for code snippets, mark them as favorites and categorize them by folders. This application is greatly inspired by [MassCode](https://github.com/massCodeIO/massCode), but not direct copy of it. Thank you to all the amazing people who created the technologies that made this project possible.
+A simple Electron app to store code snippets for later use. You can add, edit, delete and search for code snippets, mark them as favorites and categorize them by folders. This application is greatly inspired by [MassCode](https://github.com/massCodeIO/massCode), but not direct copy of it. Thank you to all the amazing people who created the technologies that made this project possible. The executable only supports Windows at the moment, but I'm looking for contributors to make deployment to other platforms possible!
 
 ## Features
 
