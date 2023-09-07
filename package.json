@@ -1,8 +1,8 @@
 {
-  "name": "code-snippet-app-electron-forge",
-  "productName": "code-snippet-app-electron-forge",
+  "name": "code-snippet-app",
+  "productName": "code-snippet-app",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "A simple Electron app to store code snippets for later use. You can add, edit, delete and search for code snippets, mark them as favorites and categorize them by folders. This application is greatly inspired by MassCode, but not direct copy of it. Thank you to all the amazing people who created the technologies that made this project possible. The executable only supports Windows at the moment, but I'm looking for contributors to make deployment to other platforms possible!",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
@@ -25,6 +25,7 @@
     "@electron-forge/maker-zip": "^6.4.1",
     "@electron-forge/plugin-auto-unpack-natives": "^6.4.1",
     "@electron-forge/plugin-webpack": "^6.4.1",
+    "@electron-forge/publisher-github": "^6.4.1",
     "@types/electron-json-storage": "^4.5.0",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
