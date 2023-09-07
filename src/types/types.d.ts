@@ -3,7 +3,24 @@ export interface SnippetType {
   title: string;
   description: string;
   code: string;
-  language: string;
+  language:
+    | "cpp"
+    | "html"
+    | "java"
+    | "javascript"
+    | "json"
+    | "lezer"
+    | "markdown"
+    | "php"
+    | "python"
+    | "rust"
+    | "sql"
+    | "xml"
+    | "less"
+    | "sass"
+    | "clojure"
+    | "csharp"
+    | null;
   folder: string;
   tags: string[];
   createdAt: string;

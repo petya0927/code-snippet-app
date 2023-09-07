@@ -63,7 +63,7 @@ export const AppContextProvider = ({
       title: "Untitled snippet",
       description: "",
       code: "",
-      language: "",
+      language: null,
       folder: "",
       isFavorite: false,
       isDeleted: false,

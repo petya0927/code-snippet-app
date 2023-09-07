@@ -3,13 +3,19 @@ import { IconLanguage } from "@tabler/icons-react";
 import React, { useContext } from "react";
 import { AppContext } from "../AppContext";
 import { AppContextType, SnippetType } from "../types/types";
+import { languages } from "../utils/languages";
 
 const LanguageSelect = () => {
   const { currentSnippet, setSnippet } = useContext<AppContextType>(AppContext);
 
   return (
     <Select
-      data={["javascript", "typescript", "html", "css"]}
+      data={
+        Object.keys(languages).map((language) => ({
+          value: language,
+          label: language,
+        })) as any
+      }
       placeholder="Language"
       value={currentSnippet?.language}
       onChange={(value) =>
