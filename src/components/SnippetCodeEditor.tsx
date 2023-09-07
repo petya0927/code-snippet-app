@@ -27,10 +27,10 @@ const SnippetCodeEditor = () => {
         closeBrackets: true,
         tabSize: 2,
       }}
-      height="calc(100vh - 180px)"
+      height="100%"
       onChange={onChange}
       theme={themes[0].value}
-      className="h-full w-full pl-2"
+      className="w-full pl-2 h-full max-h-[calc(100vh-180px)] md:max-h-[calc(100vh-212px)]"
     />
   ) : null;
 };

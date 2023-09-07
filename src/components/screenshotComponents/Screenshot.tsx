@@ -4,7 +4,7 @@ import ScreenshotHeader from "./ScreenshotHeader";
 
 const Screenshot = () => {
   return (
-    <Stack className="w-full" spacing={12}>
+    <Stack className="w-full overflow-hidden" spacing={12}>
       <ScreenshotHeader />
       <ScreenshotBody />
     </Stack>
